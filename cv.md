@@ -46,3 +46,12 @@ function isPrime(num) {
   return num > 1
 }
 ```
+
+---
+
+### Experience:
+Profession | Places | Years
+|:----:|:----:|:----:
+Operator in Turbine department| Nuclear Power Plant | 2018 - *present*
+Consultant | Clothing store "Oodji" | 2016 - 2018
+Consultant | Clothing store "LTB" | 2014 - 2016
