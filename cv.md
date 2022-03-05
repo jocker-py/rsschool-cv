@@ -76,4 +76,9 @@ Consultant | Clothing store "LTB" | 2014 - 2016
     + [Javascript for beginners](https://stepik.org/course/2223/syllabus ) - *complited*
     + [RS Schools Course «JavaScript/Front-end. Stage 0»](https://rs.school/js-stage0/) - *complieted*
     + [RS Schools Course «JavaScript/Front-end. Stage 1»](https://rs.school/js/) - *in progress*
+    
+---
 
+### Languages:
+* English - *Intermediate(B1)*
+* Russian - *Native*
