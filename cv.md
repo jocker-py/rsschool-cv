@@ -22,3 +22,12 @@
   * Communication
   * Responsibility
   * I like to study
+
+---
+
+### Skills and Proficiency:
+* HTML5, CSS3, Markdown
+* JavaScript
+* Python
+* GitHub, Figma
+* VS Code, WebStorm, PyCharm
