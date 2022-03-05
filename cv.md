@@ -65,5 +65,15 @@ Consultant | Clothing store "LTB" | 2014 - 2016
 * [Image-Gallery](https://github.com/jocker-py/projects-stage0/tree/gh-pages/image-galery)
 * [Memory-Game](https://github.com/jocker-py/projects-stage0/tree/gh-pages/memory-game)
 
+---
 
+### Education:
+* __University__: Belarusian National Technical University, Thermal Power Plants, Power-engineer
+* __Courses__:
+    + [Python for beginners](https://letpy.com) - *complited*
+    + [Programming on Python](https://stepik.org/course/67/syllabus) - *complited*
+    + [Python basics and applications](https://stepik.org/course/512/syllabus) - *complited*
+    + [Javascript for beginners](https://stepik.org/course/2223/syllabus ) - *complited*
+    + [RS Schools Course «JavaScript/Front-end. Stage 0»](https://rs.school/js-stage0/) - *complieted*
+    + [RS Schools Course «JavaScript/Front-end. Stage 1»](https://rs.school/js/) - *in progress*
 
