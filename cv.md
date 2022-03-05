@@ -31,3 +31,18 @@
 * Python
 * GitHub, Figma
 * VS Code, WebStorm, PyCharm
+
+---
+
+### Code example:
+The function returns true if the number is prime and false otherwise.
+```
+function isPrime(num) {
+  for (let i = 2; i <= Math.sqrt(num); i++) {
+    if(num % i == 0) {
+      return false
+      }
+    }
+  return num > 1
+}
+```
