@@ -7,6 +7,7 @@
 * E-mail: buladzislau@gmail.com
 * Telegram: [@buladzislau](https://t.me/buladzislau)
 * GitHub: [jocker-py](https://github.com/jocker-py)
+* LinkedIn: [Vladislav Belyaev](https://www.linkedin.com/in/vladislav-belyaev1/)
 * Discord: jocker-py#7929
 
 ---
