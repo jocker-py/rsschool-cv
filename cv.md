@@ -78,7 +78,10 @@ Consultant | Clothing store "LTB" | 2014 - 2016
     + [Javascript for beginners](https://stepik.org/course/2223/syllabus ) - *complited*
     + [RS Schools Course «JavaScript/Front-end. Stage 0»](https://rs.school/js-stage0/) - *complieted*
     + [RS Schools Course «JavaScript/Front-end. Stage 1»](https://rs.school/js/) - *in progress*
-    
+* __CodeWars__: [jocker-py](https://www.codewars.com/users/jocker-py)
+
+[![codewars](https://user-images.githubusercontent.com/76263560/156918620-af5b6c86-8bb8-4a7c-adb5-d1fe8acd01b6.svg)](https://www.codewars.com/users/jocker-py)
+
 ---
 
 ### Languages:
