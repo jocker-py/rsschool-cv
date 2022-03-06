@@ -82,5 +82,8 @@ Consultant | Clothing store "LTB" | 2014 - 2016
 ---
 
 ### Languages:
-* English - *Intermediate(B1)*
 * Russian - *Native*
+* English - *Intermediate(B1)*
+  * According to the online test at EFset Logo [www.efset.org](https://www.efset.org/quick-check/?source=EF%20SET&cid=ss011)
+  * ![en](https://user-images.githubusercontent.com/76263560/156918174-66e008f7-5029-4e32-83f1-c38896845fe5.jpg)
+
