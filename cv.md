@@ -37,14 +37,14 @@
 
 ### Code example:
 The function returns true if the number is prime and false otherwise.
-```
+```javascript
 function isPrime(num) {
   for (let i = 2; i <= Math.sqrt(num); i++) {
-    if(num % i == 0) {
-      return false
-      }
+    if (num % i == 0) {
+      return false;
     }
-  return num > 1
+  }
+  return num > 1;
 }
 ```
 
