@@ -80,7 +80,7 @@ Consultant | Clothing store "LTB" | 2014 - 2016
     + [RS Schools Course «JavaScript/Front-end. Stage 1»](https://rs.school/js/) - *in progress*
 * __CodeWars__: [jocker-py](https://www.codewars.com/users/jocker-py)
 
-[![codewars](https://user-images.githubusercontent.com/76263560/156918620-af5b6c86-8bb8-4a7c-adb5-d1fe8acd01b6.svg)](https://www.codewars.com/users/jocker-py)
+[![codewars](https://www.codewars.com/users/jocker-py/badges/large)](https://www.codewars.com/users/jocker-py)
 
 ---
 
