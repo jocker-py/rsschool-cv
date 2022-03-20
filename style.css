@@ -152,14 +152,14 @@ td {
 }
 
 .section__list {
-    padding: 0;
-    list-style: none;
+  padding: 0;
+  list-style: none;
 }
 
 .description__title,
 .certificates__title,
 .codewars__title {
-    margin-left: 20px;
+  margin-left: 20px;
 }
 
 .section__code-grey-absolute {
