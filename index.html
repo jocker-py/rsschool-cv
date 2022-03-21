@@ -26,7 +26,7 @@
       </nav>
     </header>
     <main class="main main-row">
-      <div class="aside aside_blue-column">
+      <div class="aside aside__blue-column">
         <h1 class="aside__name">Vladislav Belyaev</h1>
         <div class="aside__photo">
           <img
@@ -102,6 +102,19 @@
             <li class="aside__item">Russian - Native</li>
             <li class="aside__item">English - Intermediate(B1)</li>
           </ul>
+        </div>
+        <div class="aside__codewars">
+          <h2 class="aside__title aside__title-underline">Codewars</h2>
+          <a
+            href="https://www.codewars.com/users/jocker-py/"
+            class="codewars__link"
+          >
+            <img
+              src="https://www.codewars.com/users/jocker-py/badges/large"
+              alt="CodewarsRank"
+              class="codewars__img codewars__img-hover"
+            />
+          </a>
         </div>
       </div>
 
@@ -281,42 +294,40 @@
                 </li>
               </ul>
             </li>
-            <li class="section__item codewars">
-              <h3 class="codewars__title">Codewars</h3>
-              <a
-                href="https://www.codewars.com/users/jocker-py/"
-                class="codewars__link"
-              >
-                <img
-                  src="https://www.codewars.com/users/jocker-py/badges/large"
-                  alt="CodewarsRank"
-                  class="codewars__img"
-                />
-              </a>
-            </li>
           </ul>
         </div>
-        <div class="section__code section__code-grey-absolute">
+        <div class="section__code section__code-grey">
           <h2 class="section__title section__title-underline">Code example</h2>
           <div class="section__text">
-            <pre><code class="main__code">
-                function isPrime(num) {
-                    for (let i = 2; i <= Math.sqrt(num); i++) {
-                      if (num % i == 0) {
-                        return false;
-                      }
-                    }
-                    return num > 1;
-                  }
+            <pre><code class="section__code">
+    function <b>isPrime(num)</b> {
+      <b>for</b> (let i = 2; i <= Math.sqrt(num); i++) {
+        <b>if</b> (num % i == 0) {
+          return false;
+        }
+      }
+      <b>return</b> num > 1;
+    }
               </code></pre>
           </div>
         </div>
       </div>
     </main>
-    <footer class="footer">
-      <div class="footer__git"></div>
-      <div class="footer__year"></div>
-      <div class="footer__rs"></div>
+    <footer class="footer footer-absolute">
+      <div class="footer__wrapper footer__wrapper-flex-row">
+        <div class="footer__git">
+          <a href="https://github.com/jocker-py" class="footer__link footer__link-hover">
+            <img src="./assets/svg/git.svg" alt="GitHub" class="footer__img footer__link-hover" />
+          </a>
+        </div>
+        <div class="footer__year footer__link-hover">create by 2022</div>
+
+        <div class="footer__rs">
+          <a href="https://rs.school/js/" class="footer__link footer__link-hover">
+            <img src="./assets/svg/rs.svg" alt="RSSchool" class="footer__img footer__link-hover" />
+          </a>
+        </div>
+      </div>
     </footer>
   </body>
 </html>
