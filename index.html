@@ -1,13 +1,333 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MyCV</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext"
+      rel="stylesheet"
+      type="text/css"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="header__menu header__menu-row">
+        <li class="header__item header__item-hover">Contact</li>
+        <li class="header__item header__item-hover">About me</li>
+        <li class="header__item header__item-hover">Skills</li>
+        <li class="header__item header__item-hover">Code</li>
+        <li class="header__item header__item-hover">Experience</li>
+        <li class="header__item header__item-hover">Portfolio</li>
+        <li class="header__item header__item-hover">Education</li>
+        <li class="header__item header__item-hover">Languages</li>
+      </nav>
+    </header>
+    <main class="main main-row">
+      <div class="aside aside__blue-column">
+        <h1 class="aside__name">Vladislav Belyaev</h1>
+        <div class="aside__photo">
+          <img
+            src="./assets/img/MyPhoto.jpg"
+            alt="MyPhoto"
+            class="aside__img aside__img-around"
+          />
+          <h2 class="aside__title aside__title-underline">
+            Front-end Developer
+          </h2>
+        </div>
+
+        <div class="aside__contact">
+          <h2 class="aside__title aside__title-underline">
+            Contacts information
+          </h2>
+          <ul class="aside__list aside__list-none">
+            <li class="aside__item aside__item-big-hover">
+              LinkedIn:
+              <a
+                href="https://www.linkedin.com/in/vladislav-belyaev1/"
+                class="aside__link"
+                >Vladislav Belyaev</a
+              >
+            </li>
+            <li class="aside__item aside__item-big-hover">
+              Phone:
+              <a href="tel:+375336286538" class="aside__link">
+                +375(33)-628-65-38</a
+              >
+            </li>
+            <li class="aside__item aside__item-big-hover">
+              E-mail:
+              <a href="mailto:buladzislau@gmail.com" class="aside__link">
+                buladzislau@gmail.com</a
+              >
+            </li>
+            <li class="aside__item aside__item-big-hover">
+              Telegram:
+              <a href="https://t.me/buladzislau" class="aside__link">
+                @buladzislau</a
+              >
+            </li>
+            <li class="aside__item aside__item-big-hover">
+              Discord:
+              <a href="https://discord.gg/YqgZsZfF" class="aside__link"
+                >jocker-py#7929</a
+              >
+            </li>
+
+            <li class="aside__item aside__item-big-hover">
+              GitHub:
+              <a href="https://github.com/jocker-py" class="aside__link"
+                >jocker-py</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div class="aside__skills">
+          <h2 class="aside__title aside__title-underline">Skills</h2>
+          <ul class="aside__list">
+            <li class="aside__item">HTML5, CSS3, Markdown</li>
+            <li class="aside__item">JavaScript</li>
+            <li class="aside__item">Python</li>
+            <li class="aside__item">GitHub, Figma</li>
+            <li class="aside__item">VS Code, WebStorm, PyCharm</li>
+          </ul>
+        </div>
+        <div class="aside__languages">
+          <h2 class="aside__title aside__title-underline">Languages</h2>
+          <ul class="aside__list">
+            <li class="aside__item">Russian - Native</li>
+            <li class="aside__item">English - Intermediate(B1)</li>
+          </ul>
+        </div>
+        <div class="aside__codewars">
+          <h2 class="aside__title aside__title-underline">Codewars</h2>
+          <a
+            href="https://www.codewars.com/users/jocker-py/"
+            class="codewars__link"
+          >
+            <img
+              src="https://www.codewars.com/users/jocker-py/badges/large"
+              alt="CodewarsRank"
+              class="codewars__img codewars__img-hover"
+            />
+          </a>
+        </div>
+      </div>
+
+      <div class="section section-column">
+        <div class="section__about">
+          <h2 class="section__title section__title-underline">About me</h2>
+          <ul class="section__text section__text-none">
+            <li class="section__item">
+              I graduated from Belarusian National Technical University as
+              power-engineer in 2018.
+            </li>
+            <li class="section__item">
+              I've been studying English language during last two years in
+              English-school.
+            </li>
+            <li class="section__item">
+              I've completed several courses on Python and JavaScript languages.
+            </li>
+            <li class="section__item">
+              I would like to work with interesting projects and people as
+              Front-end Developer.
+            </li>
+            <li class="section__item description">
+              <h3 class="description__title">My strengths</h3>
+              <ul class="description__list">
+                <li class="description__item">Team worker</li>
+                <li class="description__item">Communication</li>
+                <li class="description__item">Responsibility</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+
+        <div class="section__experience">
+          <h2 class="section__title section__title-underline">Experience</h2>
+          <table class="section__table section__table-center">
+            <tr class="section__main-row">
+              <th>Profession</th>
+              <th>Company</th>
+              <th>Years</th>
+            </tr>
+
+            <tr class="section__item">
+              <td>Operator of Turbine department</td>
+              <td>Nuclear Power Plant</td>
+              <td>2018 - <b>present </b></td>
+            </tr>
+
+            <tr class="section__item">
+              <td>Consultant</td>
+              <td>Clothing store "Oodji"</td>
+              <td>2016 - 2018</td>
+            </tr>
+            <tr class="section__item">
+              <td>Consultant</td>
+              <td>Clothing store "LTB"</td>
+              <td>2014 - 2016</td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="section__portfolio">
+          <h2 class="section__title section__title-underline">Portfolio</h2>
+          <ul class="section__list section__list-flex-row">
+            <li class="section__item section__item-hover">
+              <a
+                href="https://jocker-py.github.io/projects-stage0/portfolio/"
+                class="section__link"
+                ><img
+                  src="./assets/portfolio/portfolio.jpg"
+                  alt="portfolio"
+                  class="section__img"
+              /></a>
+            </li>
+            <li class="section__item section__item-hover">
+              <a
+                href="https://jocker-py.github.io/projects-stage0/memory-game/"
+                class="section__link"
+                ><img
+                  src="./assets/portfolio/memory-game.jpg"
+                  alt="memory-game"
+                  class="section__img"
+              /></a>
+            </li>
+            <li class="section__item section__item-hover">
+              <a
+                href="https://jocker-py.github.io/projects-stage0/image-galery/"
+                class="section__link"
+                ><img
+                  src="./assets/portfolio/image-gallery.jpg"
+                  alt="image-gallery"
+                  class="section__img"
+              /></a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="section__education">
+          <h2 class="section__title section__title-underline">Education</h2>
+          <ul class="section__list">
+            <li class="section__item description">
+              <h3 class="description__title">University</h3>
+              <ul class="description__list">
+                <li class="description__item">
+                  Belarusian National Technical University
+                </li>
+                <li class="description__item">Faculty of Energy</li>
+                <li class="description__item">
+                  Specialty Thermal Power Plants
+                </li>
+              </ul>
+            </li>
+            <li class="section__item certificates">
+              <h3 class="certificates__title">Courses</h3>
+              <ul class="certificates__list certificates__list-flex-none">
+                <li class="certificates__item certificates__item-hover">
+                  <a
+                    href="./assets/certificate/comming_soon.jpg"
+                    class="certificates__link"
+                  >
+                    <img
+                      src="./assets/certificate/comming_soon.jpg"
+                      alt="stage_1"
+                      class="certificates__img"
+                    />
+                  </a>
+                </li>
+                <li class="certificates__item certificates__item-hover">
+                  <a
+                    href="./assets/certificate/bfucb1eg.jpg"
+                    class="certificates__link"
+                    ><img
+                      src="./assets/certificate/bfucb1eg.jpg"
+                      alt="stage_0"
+                      class="certificates__img"
+                  /></a>
+                </li>
+                <li class="certificates__item certificates__item-hover">
+                  <a
+                    href="./assets/certificate/js_for_begginers.jpg"
+                    class="certificates__link"
+                    ><img
+                      src="./assets/certificate/js_for_begginers.jpg"
+                      alt="js_for_begginers"
+                      class="certificates__img"
+                  /></a>
+                </li>
+                <li class="certificates__item certificates__item-hover">
+                  <a
+                    href="./assets/certificate/letpy_python.png"
+                    class="certificates__link"
+                    ><img
+                      src="./assets/certificate/letpy_python.png"
+                      alt="letpy_python"
+                      class="certificates__img"
+                  /></a>
+                </li>
+                <li class="certificates__item certificates__item-hover">
+                  <a
+                    href="./assets/certificate/stepik_python_next.jpg"
+                    class="certificates__link"
+                    ><img
+                      src="./assets/certificate/stepik_python_next.jpg"
+                      alt="stepik_python_next"
+                      class="certificates__img"
+                  /></a>
+                </li>
+                <li class="certificates__item certificates__item-hover">
+                  <a
+                    href="./assets/certificate/stepik_python.jpg"
+                    class="certificates__link"
+                    ><img
+                      src="./assets/certificate/stepik_python.jpg"
+                      alt="stepik_python"
+                      class="certificates__img"
+                  /></a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="section__code section__code-grey">
+          <h2 class="section__title section__title-underline">Code example</h2>
+          <div class="section__text">
+            <pre><code class="section__code">
+    function <b>isPrime(num)</b> {
+      <b>for</b> (let i = 2; i <= Math.sqrt(num); i++) {
+        <b>if</b> (num % i == 0) {
+          return false;
+        }
+      }
+      <b>return</b> num > 1;
+    }
+              </code></pre>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer footer-absolute">
+      <div class="footer__wrapper footer__wrapper-flex-row">
+        <div class="footer__git">
+          <a href="https://github.com/jocker-py" class="footer__link footer__link-hover">
+            <img src="./assets/svg/git.svg" alt="GitHub" class="footer__img footer__link-hover" />
+          </a>
+        </div>
+        <div class="footer__year footer__link-hover">create by 2022</div>
+
+        <div class="footer__rs">
+          <a href="https://rs.school/js/" class="footer__link footer__link-hover">
+            <img src="./assets/svg/rs.svg" alt="RSSchool" class="footer__img footer__link-hover" />
+          </a>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
