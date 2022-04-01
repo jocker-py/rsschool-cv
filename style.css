@@ -19,7 +19,8 @@ a {
 }
 /*Header start*/
 
-.header__menu-row {
+.header__items-row {
+  margin: 0;
   display: flex;
   list-style: none;
   justify-content: space-around;
@@ -34,7 +35,7 @@ a {
   transition: 0.5s;
 }
 
-.header__item-hover:hover {
+.header__item:hover {
   color: #022847;
   cursor: pointer;
   transition: 0.5s;
@@ -45,11 +46,8 @@ a {
 /*Main start*/
 .main {
   background-color: #022847;
-  
-  
 }
 .main-row {
-  
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -205,4 +203,9 @@ td {
 .section__img {
   width: 200px;
   height: 120px;
+}
+
+.section__img:hover,
+.certificates__img:hover{
+  box-shadow: 1px 0px 10px 1px #022847;
 }
