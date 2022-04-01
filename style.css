@@ -193,10 +193,9 @@ td {
 
 /*Footer start*/
 .footer {
-  height: 100px;
+  height: 100%;
 }
 .footer__wrapper-flex-row {
-
   background-color: #98a6b3;
   display: flex;
   flex-direction: row;
