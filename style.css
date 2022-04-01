@@ -159,6 +159,21 @@ td {
   list-style: none;
 }
 
+.certificates__img,
+.section__img {
+  width: 200px;
+  height: 120px;
+  transition: 0.2s;
+}
+
+.section__img:hover,
+.certificates__img:hover{
+  transition: 0.5s;
+  position: relative;
+  transform: scale(2);
+  box-shadow: 1px 0px 10px 1px #022847;
+}
+
 .description__title,
 .certificates__title,
 .codewars__title {
@@ -196,17 +211,4 @@ td {
 }
 /*Footer end*/
 
-.certificates__img {
-  width: 200px;
-  height: 120px;
-}
 
-.section__img {
-  width: 200px;
-  height: 120px;
-}
-
-.section__img:hover,
-.certificates__img:hover{
-  box-shadow: 1px 0px 10px 1px #022847;
-}
