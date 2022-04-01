@@ -1,4 +1,5 @@
 html {
+  scroll-behavior: smooth;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -31,11 +32,11 @@ a {
   color: white;
   border-radius: 50px 50px 0px 0px;
 }
-.header__item-hover {
+.header__link-hover {
   transition: 0.5s;
 }
 
-.header__item:hover {
+.header__link:hover {
   color: #022847;
   cursor: pointer;
   transition: 0.5s;
